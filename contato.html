@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Entre em contato com a Aquileia Capital." />
+  <title>Contato | Aquileia Capital</title>
+  <link rel="stylesheet" href="site.css" />
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <a class="nav-logo" href="index.html"><img class="nav-logo-img" src="images/logo_crop.png" alt="Aquileia Capital"></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre nós</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="processo.html">Processo</a></li>
+        <li><a href="documentos.html">Documentos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div>
+          <div class="section-label"><span>Contato</span></div>
+          <h2 class="contact-headline">Vamos <em>conversar?</em></h2>
+          <p class="contact-body">
+            Envie-nos uma mensagem e conheça como a Aquileia Capital pode auxiliar sua gestão patrimonial. Retornaremos em até 1 dia útil.
+          </p>
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <span class="contact-info-label">E-mail</span>
+              <span class="contact-info-value">
+                <a href="mailto:contato@aquileiacapital.com.br">contato@aquileiacapital.com.br</a>
+              </span>
+            </div>
+            <div class="contact-info-item">
+              <span class="contact-info-label">WhatsApp / Telefone</span>
+              <span class="contact-info-value">
+                <a href="tel:+5511919551777">+55 (11) 91955-1777</a>
+              </span>
+            </div>
+          </div>
+          <a
+            class="btn-whatsapp"
+            href="https://wa.me/5511919551777?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20Aquileia%20Capital."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+            </svg>
+            Iniciar conversa no WhatsApp
+          </a>
+        </div>
+
+        <div>
+          <form class="contact-form" id="contactForm" action="https://formsubmit.co/ajax/contato@aquileiacapital.com.br" method="POST">
+            <input type="hidden" name="_subject" value="Novo contato via site Aquileia Capital">
+            <input type="hidden" name="_template" value="table">
+            <div class="form-field">
+              <label class="form-label" for="nome">Nome</label>
+              <input class="form-input" type="text" id="nome" name="nome" required autocomplete="name" />
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="email">E-mail</label>
+              <input class="form-input" type="email" id="email" name="email" required autocomplete="email" />
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="mensagem">Mensagem</label>
+              <textarea class="form-textarea" id="mensagem" name="mensagem" required></textarea>
+            </div>
+            <button type="submit" class="form-submit">Enviar mensagem</button>
+          </form>
+          <div class="form-success" id="formSuccess">
+            <h3>Obrigado pelo <em>contato</em></h3>
+            <p>Nossa equipe retornará em até 1 dia útil. Agradecemos o interesse na Aquileia Capital.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <img class="footer-logo-img" src="images/logo_crop.png" alt="Aquileia Capital">
+        <div class="footer-center">
+          <span class="footer-badge">Gestor Certificado ANBIMA (CGA/CGE) · Habilitado CVM</span>
+          <span class="footer-phone">
+            <a href="https://wa.me/5511919551777" target="_blank" rel="noopener noreferrer">
+              +55 (11) 91955-1777
+            </a>
+            &nbsp;·&nbsp;
+            <a href="mailto:contato@aquileiacapital.com.br">contato@aquileiacapital.com.br</a>
+          </span>
+        </div>
+        <div class="footer-right">
+          © 2026 Aquileia Capital. Todos os direitos reservados.<br>
+          Regulação CVM · Resolução CVM nº 21/2021
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
